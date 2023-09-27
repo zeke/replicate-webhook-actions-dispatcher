@@ -2,6 +2,8 @@
 
 This is a Node.js proxy server that receives Replicate webhooks and turns them into GitHub Actions repository dispatches.
 
+<img src="dispatcher.png" alt="Replicate to dispatcher to GitHub">
+
 What it does:
 
 - **Receives webhooks from Replicate.** You set a `webhook` URL when creating a prediction on Replicate, and add a `?gh_repo=your-github-username/your-repo` query param to the URL.
